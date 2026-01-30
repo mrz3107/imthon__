@@ -79,17 +79,3 @@ import random
 tasodifiy_son = random.randint(1, 100)
 
 print("Tasodifiy son:", tasodifiy_son)
-
-#8
-try:
-    with open("numbers.txt", "r") as f:
-        numbers = [float(line) for line in f]
-
-    average = sum(numbers) / len(numbers)
-    print("O'rtacha qiymat:", average)
-
-except:
-    print("Xatolik yuz berdi!")
-
-finally:
-    print("Dastur tugadi.")
